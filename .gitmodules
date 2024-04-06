@@ -1,0 +1,9 @@
+[submodule "zine.api"]
+	path = zine.api
+	url = git@github.com:star3points/zine.api.git
+[submodule "zine.proxy"]
+	path = zine.proxy
+	url = git@github.com:star3points/zine.proxy.git
+[submodule "zine.web"]
+	path = zine.web
+	url = git@github.com:star3points/zine.web.git
