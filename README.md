@@ -1,12 +1,11 @@
-## AntistyleZine 
+# Zine 
 
 It is an Open Source web application, committed to providing the best share content system experience for both creators, writers and artists.
 
 ### Zine.Api 
  - Written in PHP using Laravel Octane with Swoole
- - Caching system based on Redis / SwooleTable\
+ - Caching system based on Redis / SwooleTable
  - Backend provides low response and can withstand significant loads
-
 
 ### Zine.Web
  - SPA written using Nuxt with NuxtUI and TailwindCSS 
