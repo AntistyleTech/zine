@@ -35,7 +35,7 @@ down-web:
 	@docker compose -f $(web_path)/compose.$(env).yaml down
 
 
-.PHONY: install network-create
+.PHONY: install git-pull-submodules network-create
 
 install:
 	@git submodule init
@@ -43,6 +43,9 @@ install:
 	@$(MAKE) network-create
 	@git submodule foreach "git reset --hard origin/master && git pull origin master && make install"
 	@$(MAKE) up
+
+git-pull-submodules:
+	@git submodule foreach "git reset --hard origin/master && git pull origin master"
 
 network-create:
 	@docker network create --driver bridge $(proxy_network) || true

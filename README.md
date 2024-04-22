@@ -17,3 +17,14 @@ The project is easily customized and modified for different types of content and
 
 Make sure that you have make, docker and docker compose installed on the host system \
 The installation process is described in more detail in each submodule separately
+
+##### Prerelease feature list:
+
+- [ ] Socialite Auth
+- [ ] Flexible user page appearance 
+- [ ] Telegram Content Exporter
+- - [ ] ContentBot
+- - [ ] BookBot
+- [ ] Support book formats
+- [ ] Interactive book support (as ChooseYourOwnStory)
+- [ ] CI/CD via GitHub Actions
